@@ -10,7 +10,7 @@ $(".resources--tag").on("click",function(){
 		$("#w-tabs-0-data-w-tab-"+rtag).trigger("click");
   }
   if (rtc !== ""){
-		  $(".wl-radio-field[rtcc="+rtc+"]").trigger("click");
+		  $(".wl-radio-field[rtcc="+rtc+"]").trigger("click").addClass("w--redirected-focus");
   }
 
   $('html, body').animate({
